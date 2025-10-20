@@ -24,7 +24,7 @@
 
 ## 具体使用
 ```java
-@RestController
+    @RestController
     @RequestMapping("/api")
     public class ApiController {
     
@@ -59,7 +59,7 @@
 ## 注解详细解释
 
 ```java
-@Target(ElementType.METHOD)
+    @Target(ElementType.METHOD)
     @Retention(RetentionPolicy.RUNTIME)
     public @interface RateLimit {
     
